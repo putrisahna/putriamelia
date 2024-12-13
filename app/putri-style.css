@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fotoku {
+    border-radius: 50%;
+    margin: 15px auto;  /* Menjaga gambar berada di tengah */
+    display: block;
+    border: solid 5px white;  /* Border putih di sekitar gambar */
+    box-shadow: 0 0 10px purple;  /* Efek bayangan ungu */
+    height: 100px;  /* Ukuran gambar lebih kecil */
+    width: 100px;   /* Ukuran gambar lebih kecil */
+    object-fit: cover;  /* Memastikan gambar tetap proporsional */
+}
